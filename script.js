@@ -1,7 +1,7 @@
 
-let a = 12;
-if(isNaN(a)){
-    console.log("Invalid Value")
-}else{
-    console.log("Valid value :",a)
-}
+// Example of ternary operator
+
+let score = 10;
+let grade = score>50 ? "Pass" : "Fail" ;
+
+console.log(grade)
