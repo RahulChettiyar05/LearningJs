@@ -41,4 +41,38 @@ let b = 20;
 console.log(a>b);
 console.log(a==b);
 console.log(a!=b);
+
+
+#4 Use logical operators to check if a number is between 10 and 50.
+
+
+let a = 15;
+
+if(a>=10 && a<=50){
+    console.log("A is between 10 and 50");
+}
+else{
+    console.log("A is not between 10 and 50");
+}
+
+
+#5 Write a program to swap two variables using a temporary variable.
+
+
+let a,b,temp;
+a = 10;
+b = 20;
+temp = 0;
+console.log("A is :",a);
+console.log("B is :",b);
+console.log("After Swapping")
+
+temp = a;
+a = b;
+b = temp;
+
+console.log("A is :",a);
+console.log("B is :",b);
+
 */
+
