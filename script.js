@@ -76,3 +76,14 @@ console.log("B is :",b);
 
 */
 
+let a = 1;
+while (a <= 20) {
+    console.log(a);
+    a++;
+}
+
+let b = 1;
+while (b <= 5) {
+    console.log(b);
+    b++;
+}
